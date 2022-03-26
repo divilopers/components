@@ -1,14 +1,20 @@
 {
   "name": "components",
-  "version": "0.0.0",
-  "description": "",
-  "main": "button.js",
+  "version": "1.0.0",
+  "description": "gh-packages-components",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divilopers/components.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "repository":"https://github.com/divilopers/components.git",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@divilopers" }
+  "bugs": {
+    "url": "https://github.com/divilopers/components/issues"
+  },
+  "homepage": "https://github.com/divilopers/components#readme"
 }
