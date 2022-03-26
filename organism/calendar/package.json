@@ -1,8 +1,8 @@
 {
-  "name": "card",
+  "name": "calendar",
   "version": "1.0.0",
   "description": "",
-  "main": "card.js",
+  "main": "calendar.js",
   "scripts": {
     "test": "exit 0"
   },

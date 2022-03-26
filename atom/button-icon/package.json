@@ -1,14 +1,12 @@
 {
-  "name": "@components/button-icon",
-  "version": "0.0.0",
+  "name": "button-icon",
+  "version": "1.0.0",
   "description": "",
   "main": "button-icon.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "repository":"https://github.com/divilopers/components.git",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@divilopers" }
+  "license": "ISC"
 }
