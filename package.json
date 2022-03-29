@@ -4,7 +4,7 @@
   "description": "gh-packages-components",
   "main": "index.js",
   "scripts": {
-    "lerna:publish": "npx lerna publish from-git",
+    "lerna:publish": "npx lerna publish from-git --force-publish",
     "test": "exit 0",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
