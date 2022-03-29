@@ -1,6 +1,6 @@
 {
   "name": "@divilopers/button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "button.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/divilopers/components.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "",
