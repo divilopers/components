@@ -34,7 +34,10 @@ jobs:
         run: npm install -g npm
       - run: npm ci
       - run: git pull
-      - run: |
+      - name: "😎Version and publish" # Interesting step
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
