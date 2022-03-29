@@ -29,6 +29,7 @@ jobs:
       - name: 🚚 Upgrade NPM
         run: npm install -g npm
       - run: npm ci
+      - run: git pull
       - run: npm run lerna:publish
 
   publish-gpr:
