@@ -19,6 +19,7 @@ jobs:
     permissions:
       packages: write
       contents: read
+    if: "startsWith(github.event.head_commit.message, '[RELEASE]')"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -26,7 +27,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm version patch
+      - run: echo "${{ secrets.GITHUB_TOKEN }}"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
