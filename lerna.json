@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "atom/*",
+    "organism/*"
+  ],
+  "version": "independent",
+  "npmClient": "npm",
+  "useWorkspaces": true
+}
