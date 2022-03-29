@@ -8,7 +8,6 @@ on:
 jobs:
 
   build:
-    needs: version
     runs-on: ubuntu-latest
     permissions:
       packages: write
