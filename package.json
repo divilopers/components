@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@divilopers/components",
   "version": "1.0.0",
   "description": "gh-packages-components",
   "main": "index.js",
@@ -10,7 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/divilopers/components.git"
+    "url": "https://github.com/divilopers/components.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
