@@ -21,21 +21,16 @@ jobs:
   build:
     needs: version
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 16
-      - run: npm install -g npm
+      - name: 🚚 Upgrade NPM
+        run: npm install -g npm
       - run: npm ci
       - run: git pull
       - run: npm run lerna:publish
-      env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   publish-gpr:
     needs: build
