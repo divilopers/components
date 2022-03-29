@@ -1,6 +1,6 @@
 {
   "name": "@divilopers/components",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "gh-packages-components",
   "main": "index.js",
   "scripts": {
